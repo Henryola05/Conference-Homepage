@@ -4,7 +4,7 @@ body {
     width: 100%;
 }
 .flex-container{
-    background: #072568;
+    background: #ffffff;
     height: 100px;
     width: 100%;
     display: flex;
@@ -28,11 +28,11 @@ margin-right: 50px;
 text-decoration: none;
   }
   li a {
-      color: #a9eb62;
+      color: #072568;
       text-decoration: none;
   }
   li a:hover {
-    color: #a9eb62;
+    color:  #072568;
   }
   .register1 {
       width: 20%;
@@ -71,8 +71,8 @@ text-transform: capitalize;
   }
   #scheme{
       float: left;
-      margin-left: 20px;
       margin-top: 15px;
+      margin-left: 20px;
   }
   .donate1 {
       width: 70%;
@@ -181,6 +181,28 @@ text-transform: capitalize;
     text-align: center;
     padding-top: 20px;
   }
+  .base {
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .base h3 {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color:rgb(255, 255, 255);
+  }
+  .base p {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: grey;
+  }
   .form p {
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
@@ -191,6 +213,7 @@ text-transform: capitalize;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
+    margin: 0px;
   }
   .donate8 {
       width: 30%;
@@ -274,7 +297,7 @@ text-transform: capitalize;
     text-align: center;
 }
 .health {
-    background: rgb(49, 49, 49);
+    background: rgb(70, 65, 65);
     background-image: url(images/background.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -283,13 +306,39 @@ height: 668px;
 width: 100%;
 margin-top: 400px;
 }
+.health21 {
+    background: rgb(70, 65, 65);
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken, normal;
+    height: 650px;
+width: 100%;
+}
 .health4 {
     background: rgb(255, 255, 255);
     background-image: url(images/background.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: darken, normal;
-height: 668px;
+height: 600px;
+width: 100%;
+}
+.health41 {
+    background: rgb(255, 255, 255);
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken, normal;
+height: 550px;
+width: 100%;
+}
+.health5 {
+    background: #f1f0ec;
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken, normal;
 width: 100%;
 }
 .health2 {
@@ -339,6 +388,28 @@ width: 84%;
 padding-left: 90px;
 text-align: center;
 }
+.health41 p {
+    font-weight: normal;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+line-height: 24px;
+color: rgb(167, 165, 165);
+width: 84%;
+padding-left: 40px;
+text-align: center;
+}
+.health5 p {
+    font-weight: normal;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+line-height: 24px;
+color: rgb(155, 155, 155);
+width: 84%;
+padding-left: 90px;
+text-align: center;
+}
 .health0 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -368,6 +439,15 @@ line-height: 30px;
 color: #ffffff;
 }
 .health p {
+    font-weight: normal;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+line-height: 24px;
+color: #ffffff;
+width: 100%;
+}
+.health21 p {
     font-weight: normal;
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
@@ -719,7 +799,7 @@ width: 90%;
       padding-top: 100px;
   }
   ul {
-    margin-left: 450px;
+    margin-left: 50px;
   }
   #deem {
     visibility: hidden;
