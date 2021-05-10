@@ -1240,6 +1240,15 @@ width: 90%;
       margin-right: 20px;
       margin-top: 10px;
     }
+    .health4 {
+        background: rgb(255, 255, 255);
+        background-image: url(images/background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken, normal;
+    height: 3000px;
+    width: 100%;
+    }
     .healt {
         background: rgba(255, 255, 255, 0.7);
         background-blend-mode: darken, normal;
