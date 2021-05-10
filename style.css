@@ -826,6 +826,12 @@ width: 90%;
         height: 100px;
         width: 100%;
     }
+    .box1{
+       text-align: center;
+       width: 100%;
+       padding-left: 0px;
+       padding-top: 30px;
+     }
     #deem {
       padding-top: 30px;
       padding-left: 90px;
@@ -931,9 +937,9 @@ width: 90%;
         background-repeat: no-repeat;
         background-position: center;
         background-blend-mode: darken, normal;
-    height: 668px;
+    height: 1200px;
     width: 100%;
-    margin-top: 700px;
+    margin-top: 800px;
     }
     .health2 p {
         font-weight: normal;
@@ -944,6 +950,8 @@ width: 90%;
     color: #000000;
     padding-top: 40px;
     text-align: center;
+    width: 90%;
+    padding-left: 20px;
     }
     .healt p {
         font-weight: normal;
@@ -954,18 +962,18 @@ width: 90%;
     color: rgb(170, 170, 170);
     padding-top: 40px;
     text-align: center;
+    width: 90%;
+    padding-left: 20px;
     }
     .health1 {
-        width: 80%;
-        padding-top: 20px;
-        margin-left: 20px;
+        padding-top: 40px;
         font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
     font-family: 'Poppins', sans-serif;
-    text-align: left;
     font-style: normal;
-    color: #E1F2FF;
+    text-align: center;
+    color: #ffffff;
     }
     .donate4{
         width: 15%;
@@ -975,18 +983,34 @@ width: 90%;
     margin-bottom: 20px;
     }
     .health h3 {
-        width: 100%;
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
     font-size: 20px;
-    color: #E1F2FF;
-    margin-bottom: 5px;
+    line-height: 30px;
+    color: #ffffff;
+    }
+    .donate2 {
+        width: 30%;
+        height: 48px;
+        font-weight: 600;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: capitalize;
+      color: #ffffff;
+      border-color:#a9eb62;
+      background:black;
+      border-radius: 10px;
+      margin-right: 20px;
+      margin-top: 10px;
     }
     .healt {
         background: rgba(255, 255, 255, 0.7);
         background-blend-mode: darken, normal;
-        height: 400px;
+        height: 500px;
     width: 100%;
     }
     .health p {
@@ -994,8 +1018,10 @@ width: 90%;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    color: #C1CFD6;
-    width: 100%;
+    line-height: 24px;
+    color: #ffffff;
+    width: 90%;
+    padding-left: 30px;
     }
       .options {
           text-align: center;
@@ -1205,10 +1231,8 @@ height: 128px;
         width: 100%;
      }
      .container1 {
-       margin-left: 20px;
-       margin-right: 20px;
-       margin-top: 10px;
-   }
+         width: 100%;
+     }
      .we {
             display: grid;
             width: 100%;
