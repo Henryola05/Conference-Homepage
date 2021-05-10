@@ -307,7 +307,7 @@ width: 100%;
 margin-top: 400px;
 }
 .health21 {
-    background: rgb(70, 65, 65);
+    background: rgb(0, 0, 0);
     background-image: url(images/background.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -316,6 +316,15 @@ margin-top: 400px;
 width: 100%;
 }
 .health4 {
+    background: rgb(255, 255, 255);
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken, normal;
+height: 600px;
+width: 100%;
+}
+.health17 {
     background: rgb(255, 255, 255);
     background-image: url(images/background.svg);
     background-repeat: no-repeat;
@@ -471,6 +480,15 @@ color: #ffffff;
 width: 100%;
 }
 .health21 p {
+    font-weight: normal;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+line-height: 24px;
+color: #ffffff;
+width: 100%;
+}
+.health21 h3 {
     font-weight: normal;
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
@@ -817,6 +835,12 @@ width: 90%;
         width: 16%;
         padding-left: 0px;
     }
+    .box0 {
+        float:left;
+        text-align: center;
+        width: 16%;
+        padding-left: 0px;
+    }
   .sup {
       float: right;
       padding-top: 100px;
@@ -889,6 +913,7 @@ width: 90%;
         height: 48px;
         border-radius: 30px;
         background: #072568;
+        border-color:#072568;
         text-align: center;
         font-weight: 600;
         font-family: 'Poppins', sans-serif;
@@ -896,8 +921,8 @@ width: 90%;
     font-size: 16px;
     line-height: 24px;
     text-transform: capitalize;
-        color: #FCE6E3;
-        margin-right: 20px;
+        color: #a9eb62;
+        margin-right: 30px;
         margin-top: 0px;
      }
       .p1 {
@@ -934,7 +959,8 @@ width: 90%;
         letter-spacing: 0.05em;
         text-transform: capitalize;
         color: #072568;
-        background: #FCE6E3;
+        border-color:#a9eb62;
+        background:#a9eb62;
         border-radius: 30px;
         margin-bottom: 20px;
       }
@@ -960,7 +986,7 @@ width: 90%;
         background-repeat: no-repeat;
         background-position: center;
         background-blend-mode: darken, normal;
-    height: 1200px;
+    height: 1300px;
     width: 100%;
     margin-top: 800px;
     }
@@ -998,12 +1024,53 @@ width: 90%;
     text-align: center;
     color: #ffffff;
     }
+    .box6{
+       text-align: center;
+       width: 90%;
+       padding-left: 20px;
+     }
     .donate4{
         width: 15%;
     height: 5px;
     background: #FCE6E3;
     border-radius: 10px;
     margin-bottom: 20px;
+    }
+    .donate7 {
+        width: 90%;
+        height: 48px;
+        font-weight: 600;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: capitalize;
+      color: #ffffff;
+      border-color:#a9eb62;
+      background:#51811e;
+      border-radius: 10px;
+      align-items: center;
+      margin-left: 15px;
+      margin-top: 40px;
+    }
+    .donate9 {
+        width: 90%;
+        height: 40px;
+        font-weight: 600;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: capitalize;
+      color: #072568;
+      border-color:#a9eb62;
+      background:#a9eb62;
+      border-radius: 30px;
+    }
+    .base img {
+      width: 90%;
     }
     .health h3 {
         font-weight: 500;
@@ -1012,6 +1079,10 @@ width: 90%;
     font-size: 20px;
     line-height: 30px;
     color: #ffffff;
+    }
+    #pic1 {
+        width: 80%;
+        display: none;
     }
     .health0 {
         padding-top: 50px;
@@ -1023,6 +1094,15 @@ width: 90%;
     font-style: normal;
     text-align: center;
     color: #000000;
+    }
+    .input-group .form-control {
+        width: 90%;
+        height: 30px;
+    }
+    .input-group {
+      width: 100%;
+      padding-left: 20px;
+      padding-bottom: 20px;
     }
     .box3{
        text-align: left;
@@ -1046,6 +1126,15 @@ width: 90%;
     text-align: center;
     color: #000000;
     }
+    .health21 {
+        background: rgb(0, 0, 0);
+        background-image: url(images/background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken, normal;
+        height: 1950px;
+    width: 100%;
+    }
     .donate8 {
         width: 30%;
         height: 48px;
@@ -1066,6 +1155,11 @@ width: 90%;
     .box5 {
         text-align: center;
         width: 100%;
+        padding-left: 0px;
+    }
+    .box0 {
+        text-align: center;
+        width: 50%;
         padding-left: 0px;
     }
     .donate6 {
@@ -1100,7 +1194,7 @@ width: 90%;
       background:#a9eb62;
       border-radius: 10px;
       align-items: center;
-      margin-left: 35px;
+      margin-left: 20px;
       margin-top: 40px;
     }
   .donate5 {
@@ -1126,7 +1220,7 @@ width: 90%;
         background-repeat: no-repeat;
         background-position: center;
         background-blend-mode: darken, normal;
-    height: 1050px;
+    height: 1100px;
     width: 100%;
     }
     .donate2 {
@@ -1152,6 +1246,15 @@ width: 90%;
         height: 500px;
     width: 100%;
     }
+    .health17 {
+        background: rgb(255, 255, 255);
+        background-image: url(images/background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken, normal;
+    height: 1050px;
+    width: 100%;
+    }
     .health p {
         font-weight: normal;
     font-size: 16px;
@@ -1170,12 +1273,35 @@ width: 90%;
           border-radius: 70px;
           float: left;
       }
+      #pic {
+          width: 90%;
+      }
       .register {
          width: 20%;
          height: 48px;
          border-radius: 30px;
          background: #072568;
          text-align: center;
+      }
+      .health21 p {
+          font-weight: normal;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      line-height: 24px;
+      color: #ffffff;
+      width: 100%;
+      padding-bottom: 20px;
+      }
+      .health21 h3 {
+          font-weight: normal;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      line-height: 24px;
+      color: #ffffff;
+      width: 100%;
+      padding-bottom: 20px;
       }
       #button {
         background: #072568;
@@ -1220,6 +1346,7 @@ width: 90%;
       }
       #scheme{
         margin-left: 10px;
+        width: 90%;
     }
       .div1 {
           margin-left: 10%;
